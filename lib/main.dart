@@ -1,6 +1,8 @@
 import 'package:curso_navit/hero_widget/first_screen.dart';
-import 'package:curso_navit/ui_home_page.dart';
+import 'package:curso_navit/formas_custom_painter.dart';
 import 'package:flutter/material.dart';
+
+import 'home_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -20,10 +22,10 @@ class MyApp extends StatelessWidget {
       //   useMaterial3: true,
       // ),
       // theme: DefaultTheme
-      // home: const HomePage(),
+      home: const HomePage(),
 
       // home: UiHomePage(),
-      home: FirstScreen(),
+      // home: FirstScreen(),
     );
   }
 }
